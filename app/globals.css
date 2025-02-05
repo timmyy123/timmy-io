@@ -1,6 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import "tailwindcss";
 
-:root {
+@theme {
+  --font-roboto: 'Roboto', sans-serif; 
+}
+
+@utility background-image {
+  background-image: url('../assets/background.jpg');
+}
+
+@utility card-base {
+  @apply  rounded-2xl w-full shadow-2xl bg-green-300/75
+  justify-center items-center min-h-[100px] flex
+}
+
+
+
+
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -41,4 +59,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
