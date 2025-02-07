@@ -20,6 +20,7 @@ export default function Home() {
         <Info/>
         </div>
       </section>
+      
     </main>
   );
 }
