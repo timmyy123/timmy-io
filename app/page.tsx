@@ -2,6 +2,7 @@ import Photo from "@/components/Photo";
 import Hello from "@/components/Hello";
 import Info from "@/components/Info";
 import Skills from '../components/Skills'
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -23,7 +24,9 @@ export default function Home() {
         <div className="col-span-12 lg:col-span-4 row-span-3  card-base max-lg:row-span-1">
           <Skills/>
         </div>
-        <div className="col-span-12 lg:col-span-8 row-span-3  card-base max-lg:row-span-1"></div>
+        <div className="col-span-12 lg:col-span-8 row-span-3  card-base max-lg:row-span-1">
+          <Projects/>
+        </div>
       </section>
     </main>
   );
