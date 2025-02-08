@@ -18,11 +18,11 @@ const Info = () => {
           <h1 className="text-2xl mb-1">Contacts</h1>
           <div className="flex gap-2 items-center">
             <FaPhoneAlt />
-            <p>{process.env.PHONE_NUMBER}</p>
+            <p>+61 433837313</p>
           </div>
           <div className="flex gap-2 items-center ">
             <MdEmail />
-            <p>{process.env.EMAIL}</p>
+            <p>timmyy32123@outlook.com</p>
           </div>
         </div>
       </div>
@@ -37,10 +37,10 @@ const Info = () => {
           </a>
         </div>
         <div className=" flex   justify-center items-center gap-2 grow-1">
-          <Link href={process.env.GITHUB || "https://github.com"}>
+          <Link href={"https://github.com/timmyy123"}>
             <FaGithub className="w-22 h-22" />
           </Link>
-          <Link href={process.env.LINKEDIN || "https://www.linkedin.com"}>
+          <Link href={"https://www.linkedin.com/in/yuan-qian-37b4862b0"}>
             <FaLinkedin className="w-22 h-22" />
           </Link>
         </div>
