@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "timmy-io",
-  description: "Yuan(Timmy)'s portfolio website",
+  description: "Yuan(Timmy) Qian's portfolio website",
 };
 
 export default function RootLayout({
