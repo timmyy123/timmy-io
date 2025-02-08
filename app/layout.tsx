@@ -18,7 +18,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "timmy-io",
   description: "Yuan(Timmy) Qian's portfolio website",
-  viewport: "width=device-width, initial-scale=0.8",
 };
 
 export default function RootLayout({
@@ -28,6 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=0.8"></meta>
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
