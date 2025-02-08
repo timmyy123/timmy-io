@@ -27,7 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <meta name="viewport" content=" initial-scale=0.8"></meta>
+      <head>
+        <meta name="viewport" content=" initial-scale=0.8"></meta>
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
