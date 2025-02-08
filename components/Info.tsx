@@ -3,7 +3,6 @@ import React from "react";
 import { FaPhoneAlt, FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
-import { Button } from "./ui/button";
 
 const Info = () => {
   return (
@@ -31,7 +30,7 @@ const Info = () => {
         <div className="grow-1 flex items-center justify-center  ">
           <a
             href="/Resume.pdf"
-            className="flex items-center justify-center gap-2 border rounded-2xl p-2"
+            className="flex items-center justify-center gap-2 border border-yellow-400 rounded-2xl p-2"
           >
             <FiDownload />
             <p>Resume</p>

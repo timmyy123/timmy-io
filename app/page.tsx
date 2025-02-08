@@ -20,7 +20,7 @@ export default function Home() {
           <Info />
         </div>
       </section>
-      <section className="grid col-span-12 grid-cols-subgrid row-span-4 grid-rows-3 max-lg:row-span-8 gap-4">
+      <section className="grid col-span-12 grid-cols-subgrid row-span-4 grid-rows-2 max-lg:row-span-8 gap-4">
         <div className="col-span-12 lg:col-span-4 row-span-3  card-base max-lg:row-span-1">
           <Skills/>
         </div>

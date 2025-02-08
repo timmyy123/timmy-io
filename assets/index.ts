@@ -40,12 +40,14 @@ const projects = [
   {
     title: "Ti-Talk",
     image: tiTalk,
+    link: 'https://ti-talk.onrender.com/',
     description: "MERN Stack real-time chat app by timmy",
     stacks: ["React.js", "Mongodb", "Node.js", "Express.js", "Bootstrap"],
   },
   {
     title: "YC-Directory",
     image: ycDirectory,
+    link: 'https://yc-directory-one-snowy.vercel.app',
     description: "Start up ideas sharing platform",
     stacks: [
       "Next.js",
@@ -60,30 +62,35 @@ const projects = [
   {
     title: "Aora",
     image: aora,
+    link: 'https://github.com/timmyy123/AI-Video-Sharing-App',
     description: "React Native AI video sharing app",
     stacks: ["React Native", "Expo", "Appwrite", "Native Wind"],
   },
   {
     title: "Nike Landing Page",
     image: nike,
+    link: 'https://nike-landing-page-cdv.pages.dev',
     description: "Nike shop website",
     stacks: ["React.js", "Vite", "Tailwind CSS"],
   },
   {
     title: "Crypto Mining Visualisation",
     image: crypto,
+    link: 'https://dvp.pages.dev',
     description: "Crypto mining trends and GPUs mining comparison",
     stacks: ["D3.js", "Bootstrap"],
   },
   {
     title: "healing journey",
     image: healingJourney,
+    link: 'https://healingjourney.pages.dev/',
     description: "Mental health charity website",
     stacks: ["Vue.js", "Firebase", "Bootstrap", "Mapbox"],
   },
   {
     title: "Melbourne Development",
     image: mel,
+    link: 'https://melbourne-development.pages.dev',
     description: "Melbourne development visualisation",
     stacks: ["D3.js"],
   },

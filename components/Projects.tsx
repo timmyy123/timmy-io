@@ -11,11 +11,12 @@ import Project from "./Project";
 
 const Projects = () => {
   return (
-    <div className="flex justify-center items-center w-full h-full">
-      <Carousel className="">
+    <div className="flex flex-col w-full p-4 items-center">
+      <h1 className="text-4xl">Projects</h1>
+      <Carousel className="flex w-[85%] h-full items-center justify-between">
         <CarouselContent>
           {projects.map((project) => (
-            <CarouselItem className="basis-1/3" key={project.title}>
+            <CarouselItem className="lg:basis-1/3 md:basis-1/2" key={project.title}>
               <Project project={project}/>
             </CarouselItem>
           ))}

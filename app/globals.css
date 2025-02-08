@@ -16,14 +16,15 @@
 @utility card-base {
   @apply  rounded-2xl shadow-2xl bg-amber-100
   min-h-[220px] flex font-roboto
-  text-indigo-300
+  text-yellow-400
 }
 
 @utility card-top {
-  @apply  rounded-2xl bg-stone-100
+  @apply  rounded-2xl bg-lime-50
    flex font-roboto
 
 }
+
 
 /* :root {
   --background: #ffffff;
