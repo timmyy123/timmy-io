@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import type { Viewport } from 'next';
 config.autoAddCss = false;
 
 const geistSans = Geist({
@@ -20,6 +21,10 @@ export const metadata: Metadata = {
   description: "Yuan(Timmy) Qian's portfolio website",
 };
 
+export const viewport: Viewport = {
+  initialScale: 0.8
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -27,9 +32,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=0.8"></meta>
-      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
