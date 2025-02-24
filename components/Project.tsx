@@ -15,7 +15,7 @@ const Project = ({ project }: { project: ProjectType }) => {
         alt={project?.title || "Screenshot"}
         className="aspect-16/9 object-cover object-center w-[90%] rounded-2xl"
       />
-      <p className="p-2">{project?.description}</p>
+      <p className="p-2 bg-stone-50 rounded-2xl">{project?.description}</p>
       {project?.stacks.length > 0 && (
         <>
           <h2>Tech Stacks</h2>
