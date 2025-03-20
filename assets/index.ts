@@ -8,6 +8,7 @@ import nike from "./nike.png";
 import tiTalk from "./ti-talk.jpg";
 import ycDirectory from "./yc-directory.png";
 import framerMotion from "./framer.png";
+import sunSafe from "./sun-safe.png";
 
 const skills = [
   "React.js",
@@ -19,6 +20,8 @@ const skills = [
   "Tailwind CSS",
   "Bootstrap",
   "Framer Motion",
+  "Google Gemini",
+  "AWS",
   "Firebase",
   "Appwrite",
   "Sanity.io",
@@ -45,6 +48,23 @@ const projects = [
     link: "https://ti-talk.onrender.com/",
     description: "MERN Stack real-time chat app by timmy",
     stacks: ["React.js", "Mongodb", "Node.js", "Express.js", "Bootstrap"],
+  },
+  {
+    title: "Sun-safe",
+    image: sunSafe,
+    link: "https://sun-safe.vercel.app/",
+    description: "SunSafe - Sun Protection for Healthier Skin",
+    stacks: [
+      "Next.js",
+      "Tailwind CSS",
+      "Shadcn",
+      "Appwrite",
+      "Mapbox",
+      "D3.js",
+      "Google Gemini",
+      "Sentry.io",
+      "Typescript",
+    ],
   },
   {
     title: "YC-Directory",
@@ -83,11 +103,11 @@ const projects = [
     stacks: ["D3.js", "Bootstrap"],
   },
   {
-    title: 'Framer Motion Animation',
+    title: "Framer Motion Animation",
     image: framerMotion,
-    link: 'https://framer-animation.pages.dev',
-    description: 'A fun animation website with framer motion',
-    stacks: ['React.js', 'Framer Motion', 'Tailwind CSS']
+    link: "https://framer-animation.pages.dev",
+    description: "A fun animation website with framer motion",
+    stacks: ["React.js", "Framer Motion", "Tailwind CSS"],
   },
   {
     title: "healing journey",
