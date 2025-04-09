@@ -9,6 +9,8 @@ import tiTalk from "./ti-talk.jpg";
 import ycDirectory from "./yc-directory.png";
 import framerMotion from "./framer.png";
 import sunSafe from "./sun-safe.png";
+import digitalDemeanor from './digital-demeanor.png';
+import { link } from "fs";
 
 const skills = [
   "React.js",
@@ -23,6 +25,7 @@ const skills = [
   "Google Gemini",
   "AWS",
   "Firebase",
+  'Supabase',
   "Appwrite",
   "Sanity.io",
   "Node.js",
@@ -42,6 +45,13 @@ const skills = [
 ];
 
 const projects = [
+  {
+    title: 'Digital Demeanor',
+    image: digitalDemeanor,
+    link: 'https://digital-demeanor.vercel.app/',
+    description: 'Digital Demeanor - AI-Powered digital citizenship learning platform',
+    stacks: ['Next.js', 'Tailwind CSS', 'Shadcn', 'Supabase', 'D3.js', 'Google Gemini', 'Typescript'],
+  },
   {
     title: "Ti-Talk",
     image: tiTalk,
