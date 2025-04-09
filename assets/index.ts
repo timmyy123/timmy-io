@@ -50,7 +50,7 @@ const projects = [
     image: digitalDemeanor,
     link: 'https://digital-demeanor.vercel.app/',
     description: 'Digital Demeanor - AI-Powered digital citizenship learning platform',
-    stacks: ['Next.js', 'Tailwind CSS', 'Shadcn', 'Supabase', 'D3.js', 'Google Gemini', 'Typescript'],
+    stacks: ['Next.js', 'Tailwind CSS', 'Shadcn', 'Framer Motion', 'Supabase', 'D3.js', 'Google Gemini', 'Typescript'],
   },
   {
     title: "Ti-Talk",
