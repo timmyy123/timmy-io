@@ -4,6 +4,7 @@ import "./globals.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import type { Viewport } from 'next';
+import { Analytics } from "@vercel/analytics/react"
 config.autoAddCss = false;
 
 const geistSans = Geist({
@@ -34,6 +35,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
+        <Analytics/>
       </body>
     </html>
   );
