@@ -5,3 +5,10 @@ export interface ProjectType {
   description: string;
   stacks: string[];
 }
+
+export interface ExperienceType {
+  company: string;
+  role: string;
+  time: string;
+  description: string;
+}

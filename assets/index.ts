@@ -45,6 +45,15 @@ const skills = [
   "I'm learning more...",
 ];
 
+const experience = [
+  {
+    company: "Rayesh Lifestyle Pvt Ltd",
+    role: "IT Intern",
+    time: "Jun 2025 - Present",
+    description: "Full-stack web development including Shopify and custom website development from scratch. Responsible for front-end and back-end programming, database integration, hosting setup, testing, debugging, and website launch coordination. Maintaining and updating websites regularly based on business requirements."
+  }
+];
+
 const projects = [
   {
     title: 'Duo Date',
@@ -143,4 +152,4 @@ const projects = [
   },
 ];
 
-export { photo, background, skills, projects };
+export { photo, background, skills, experience, projects };

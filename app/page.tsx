@@ -3,6 +3,7 @@ import Photo from "@/components/Photo";
 import Hello from "@/components/Hello";
 import Info from "@/components/Info";
 import Skills from '@/components/Skills';
+import Experience from '@/components/Experience';
 import Projects from "@/components/Projects";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
@@ -23,7 +24,7 @@ export default function Home() {
         transition={{ duration: 0.7, delay: 0.1 }}
       >
         {/* Photo */}
-        <div className="col-span-3 lg:col-span-3 max-md:col-span-4">
+        <div className="col-span-3 lg:col-span-3 max-md:col-span-6">
           <Card className="h-full overflow-hidden rounded-3xl border-amber-200/50 shadow-md p-0">
             <CardContent className="!p-0 h-full">
               <Photo />
@@ -32,7 +33,7 @@ export default function Home() {
         </div>
         
         {/* Hello */}
-        <div className="col-span-3 lg:col-span-3 max-md:col-span-8">
+        <div className="col-span-3 lg:col-span-3 max-md:col-span-6">
           <Card className="h-full overflow-hidden rounded-3xl border-amber-200/50 bg-gradient-to-br from-amber-50 to-amber-100/90 backdrop-blur-sm shadow-md">
             <CardContent className="p-0 h-full">
               <Hello />
@@ -50,7 +51,7 @@ export default function Home() {
         </div>
       </motion.section>
 
-      {/* Bottom row: Skills + Projects */}
+      {/* Bottom row: Skills + Experience + Projects */}
       <motion.section 
         className="col-span-12 grid grid-cols-12 row-span-4 max-lg:row-span-7 gap-6"
         initial={{ y: 40, opacity: 0 }}
@@ -58,7 +59,7 @@ export default function Home() {
         transition={{ duration: 0.7, delay: 0.3 }}
       >
         {/* Skills */}
-        <div className="col-span-4 lg:col-span-4 max-md:col-span-12">
+        <div className="col-span-3 lg:col-span-3 max-md:col-span-12">
           <Card className="h-full overflow-hidden rounded-3xl border-amber-200/50 bg-gradient-to-br from-amber-50 to-amber-100/90 backdrop-blur-sm shadow-md">
             <CardContent className="p-0 h-full">
               <Skills/>
@@ -66,8 +67,17 @@ export default function Home() {
           </Card>
         </div>
         
+        {/* Experience */}
+        <div className="col-span-3 lg:col-span-3 max-md:col-span-12">
+          <Card className="h-full overflow-hidden rounded-3xl border-amber-200/50 bg-gradient-to-br from-amber-50 to-amber-100/90 backdrop-blur-sm shadow-md">
+            <CardContent className="p-0 h-full">
+              <Experience/>
+            </CardContent>
+          </Card>
+        </div>
+        
         {/* Projects */}
-        <div className="col-span-8 lg:col-span-8 max-md:col-span-12">
+        <div className="col-span-6 lg:col-span-6 max-md:col-span-12">
           <Card className="h-full overflow-hidden rounded-3xl border-amber-200/50 bg-gradient-to-br from-amber-50 to-amber-100/90 backdrop-blur-sm shadow-md">
             <CardContent className="p-0 h-full">
               <Projects/>
