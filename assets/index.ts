@@ -10,6 +10,7 @@ import ycDirectory from "./yc-directory.png";
 import framerMotion from "./framer.png";
 import sunSafe from "./sun-safe.png";
 import digitalDemeanor from './digital-demeanor.png';
+import duoDate from './duo-date.png';
 import { link } from "fs";
 
 const skills = [
@@ -45,6 +46,13 @@ const skills = [
 ];
 
 const projects = [
+  {
+    title: 'Duo Date',
+    image: duoDate,
+    link: 'https://play.google.com/store/apps/details?id=com.duodate.app',
+    description: 'Duo Date - Affordable Dating App',
+    stacks: ['Expo', 'React Native', 'Supabase', 'Native Wind', 'Typescript'],
+  },
   {
     title: 'Digital Demeanor',
     image: digitalDemeanor,
