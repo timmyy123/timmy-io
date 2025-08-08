@@ -11,6 +11,7 @@ import framerMotion from "./framer.png";
 import sunSafe from "./sun-safe.png";
 import digitalDemeanor from './digital-demeanor.png';
 import duoDate from './duo-date.png';
+import llmHub from './llm-hub.png';
 import { link } from "fs";
 
 const skills = [
@@ -55,6 +56,14 @@ const experience = [
 ];
 
 const projects = [
+  {
+    title: 'LLM Hub',
+    image: llmHub,
+    link: 'https://play.google.com/store/apps/details?id=com.llmhub.llmhub',
+    description: 'LLM Hub - Local LLMs on Android',
+    stacks: ['Jetpack Compose', 'LLMs', 'Kotlin', 'MediaPipe'],
+
+  },
   {
     title: 'Duo Date',
     image: duoDate,
