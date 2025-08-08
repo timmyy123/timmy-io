@@ -12,6 +12,7 @@ import sunSafe from "./sun-safe.png";
 import digitalDemeanor from './digital-demeanor.png';
 import duoDate from './duo-date.png';
 import llmHub from './llm-hub.png';
+import seedStart from './seed-start.png';
 import { link } from "fs";
 
 const skills = [
@@ -70,6 +71,13 @@ const projects = [
     link: 'https://play.google.com/store/apps/details?id=com.duodate.app',
     description: 'Duo Date - Affordable Dating App',
     stacks: ['Expo', 'React Native', 'Supabase', 'Native Wind', 'Typescript'],
+  },
+  {
+    title: 'Seed Start',
+    image: seedStart,
+    link: 'https://seedstart.world/',
+    description: 'Seed Start - Startups connecting platform',
+    stacks: ['React.js', 'Material UI', 'Firebase'],
   },
   {
     title: 'Digital Demeanor',
