@@ -86,7 +86,7 @@ const Info = () => {
             <FaGithub size={24} />
           </motion.a>
           <motion.a 
-            href="https://www.linkedin.com/in/yuan-qian-37b4862b0" 
+            href="https://www.linkedin.com/in/timmy-qian-37b4862b0/" 
             className="bg-amber-100 p-3 rounded-full text-amber-700 hover:text-amber-900 hover:bg-amber-200 transition-colors"
             whileHover={{ scale: 1.1, rotate: -10 }}
             whileTap={{ scale: 0.9 }}
