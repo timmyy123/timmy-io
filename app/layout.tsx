@@ -18,12 +18,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "timmy-io",
-  description: "Yuan(Timmy) Qian's portfolio website",
+  title: "Timmy Qian | Full Stack Developer",
+  description: "Full Stack Developer specializing in web and mobile applications. Proficient in React, Next.js, React Native, and modern JavaScript frameworks.",
+  keywords: ["Full Stack Developer", "React Developer", "Next.js", "Mobile Developer", "Web Developer", "Timmy Qian"],
+  authors: [{ name: "Timmy Qian" }],
+  openGraph: {
+    title: "Timmy Qian | Full Stack Developer",
+    description: "Full Stack Developer specializing in web and mobile applications",
+    url: "https://timmy-io.vercel.app",
+    siteName: "Timmy Qian Portfolio",
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export const viewport: Viewport = {
-  initialScale: 0.8
+  width: "device-width",
+  initialScale: 1,
 }
 
 export default function RootLayout({
@@ -32,8 +43,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
         <Analytics/>
       </body>
