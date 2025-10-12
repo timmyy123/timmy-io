@@ -82,11 +82,11 @@ export default function Projects() {
                     </motion.div>
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
                     
-                    {/* Overlay with links */}
+                    {/* Overlay with links - Always visible on mobile, hover on desktop */}
                     <motion.div
                       initial={{ opacity: 0 }}
                       animate={{ opacity: hoveredIndex === index ? 1 : 0 }}
-                      className="absolute inset-0 flex items-center justify-center gap-3"
+                      className="hidden md:flex absolute inset-0 items-center justify-center gap-3"
                     >
                       <Button
                         size="sm"
@@ -108,6 +108,29 @@ export default function Projects() {
                         </Button>
                       )}
                     </motion.div>
+
+                    {/* Mobile buttons - Always visible */}
+                    <div className="md:hidden absolute bottom-3 left-3 right-3 flex gap-2 justify-center">
+                      <Button
+                        size="sm"
+                        className="bg-blue-600 hover:bg-blue-700 text-white shadow-md flex-1"
+                        onClick={() => window.open(project.link, '_blank')}
+                      >
+                        <ExternalLink className="h-3 w-3 mr-1" />
+                        Visit
+                      </Button>
+                      {project.github && (
+                        <Button
+                          size="sm"
+                          variant="outline"
+                          className="border-2 border-slate-600 bg-slate-800/90 text-white hover:bg-slate-700 hover:border-slate-500 shadow-md flex-1"
+                          onClick={() => window.open(project.github, '_blank')}
+                        >
+                          <Github className="h-3 w-3 mr-1" />
+                          Code
+                        </Button>
+                      )}
+                    </div>
                   </div>
 
                   {/* Project Content */}
